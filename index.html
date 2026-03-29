@@ -3,21 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Agent Server — Always-On Local Hardware | ClawBox</title>
-<meta name="description" content="AI agent server that runs 24/7 on dedicated NVIDIA hardware. 67 TOPS, 15W, fully local — no cloud, no subscriptions. ClawBox ships ready in 5 minutes.">
-<meta name="keywords" content="ai agent server, local ai agent server, self-hosted agent server, ai agent infrastructure hardware, dedicated ai agent hardware">
+<title>AI Agent Server — Dedicated 24/7 Hardware | ClawBox</title>
+<meta name="description" content="AI agent server powered by NVIDIA Jetson Orin Nano. Run autonomous agents 24/7 on 15W hardware — no cloud, no subscriptions, no rate limits. €549 one-time.">
+<meta name="keywords" content="ai agent server, local ai agent server, self-hosted agent server, dedicated ai agent hardware, autonomous ai server, always-on ai agents">
 <link rel="canonical" href="https://ai-agent-server.com/">
-<meta property="og:title" content="AI Agent Server — Always-On Local Hardware | ClawBox">
-<meta property="og:description" content="AI agent server that runs 24/7 on dedicated NVIDIA hardware. 67 TOPS, 15W, fully local — no cloud, no subscriptions.">
+<meta property="og:title" content="AI Agent Server — Dedicated 24/7 Hardware | ClawBox">
+<meta property="og:description" content="AI agent server powered by NVIDIA Jetson Orin Nano. Run autonomous agents 24/7 on 15W hardware — no cloud, no subscriptions.">
 <meta property="og:url" content="https://ai-agent-server.com/">
 <meta property="og:image" content="https://openclawhardware.dev/clawbox-1.webp">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AI Agent Server — Always-On Local Hardware | ClawBox">
-<meta name="twitter:description" content="AI agent server that runs 24/7 on dedicated NVIDIA hardware. 67 TOPS, 15W, fully local — no cloud, no subscriptions.">
+<meta name="twitter:title" content="AI Agent Server — Dedicated 24/7 Hardware | ClawBox">
+<meta name="twitter:description" content="AI agent server powered by NVIDIA Jetson Orin Nano. Run autonomous agents 24/7 on 15W hardware — no cloud, no subscriptions.">
 <meta name="robots" content="index, follow">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"ClawBox — AI Agent Server","description":"Dedicated AI agent server powered by NVIDIA Jetson Orin Nano. 67 TOPS, 15W, 512GB NVMe. Runs agents 24/7 without cloud dependencies.","brand":{"@type":"Brand","name":"OpenClaw Hardware"},"image":"https://openclawhardware.dev/clawbox-1.webp","url":"https://openclawhardware.dev/","offers":{"@type":"Offer","price":"549","priceCurrency":"EUR","availability":"https://schema.org/InStock"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What makes a dedicated AI agent server better than cloud-hosted agents?","acceptedAnswer":{"@type":"Answer","text":"A dedicated AI agent server keeps all data on-premise, eliminates monthly API costs, and runs 24/7 without internet dependency. ClawBox draws just 15W, so it costs under €15/year in electricity versus €240-600/year for cloud agent subscriptions."}},{"@type":"Question","name":"How many AI agents can an AI agent server run simultaneously?","acceptedAnswer":{"@type":"Answer","text":"ClawBox can run multiple agents concurrently across Telegram, WhatsApp, Discord, and other platforms. The 8GB unified memory and 67 TOPS of AI performance handle multi-agent orchestration, tool use, and local model inference simultaneously."}},{"@type":"Question","name":"Do I need technical skills to set up an AI agent server?","acceptedAnswer":{"@type":"Answer","text":"No. ClawBox comes pre-configured with OpenClaw software. Plug in power and ethernet, open clawbox.local in your browser, scan a QR code, and your AI agent server is live in under 5 minutes. No terminal, no Docker, no Linux knowledge required."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is an AI agent server and why do I need dedicated hardware?","acceptedAnswer":{"@type":"Answer","text":"An AI agent server is dedicated hardware that runs autonomous AI agents around the clock without relying on cloud services. Unlike cloud-hosted agents that incur monthly API fees and impose token limits, a local AI agent server like ClawBox gives you unlimited inference at a fixed one-time cost of €549. It draws just 15W — about €1/month in electricity — and keeps all data on your local network for complete privacy."}},{"@type":"Question","name":"How many autonomous agents can an AI agent server handle at once?","acceptedAnswer":{"@type":"Answer","text":"ClawBox runs multiple concurrent agents across Telegram, WhatsApp, Discord, email, and custom webhooks. With 67 TOPS of AI compute and 8GB unified LPDDR5 memory, it handles multi-agent orchestration, tool calling, browser automation, cron-scheduled tasks, and local model inference simultaneously. Each agent maintains its own memory, personality, and skill set."}},{"@type":"Question","name":"Can an AI agent server work without internet access?","acceptedAnswer":{"@type":"Answer","text":"Yes. ClawBox runs open-source language models (Llama 3, Mistral, Phi-3) entirely offline at up to 15 tokens per second. Your AI agent server processes documents, generates text, and executes scheduled tasks with zero internet dependency. When connectivity is available, hybrid mode lets agents route complex queries to cloud APIs like GPT-4 or Claude while keeping sensitive operations local."}},{"@type":"Question","name":"What real-world tasks can I automate with an AI agent server?","acceptedAnswer":{"@type":"Answer","text":"Common use cases include: automated email triage and response drafting, e-commerce price monitoring and alerts, social media content scheduling, smart home device orchestration via Home Assistant, customer support ticket processing, daily news and market briefings, document summarization, and compliance-sensitive data analysis that cannot leave your premises."}},{"@type":"Question","name":"How does ClawBox compare to running agents on a Raspberry Pi or old laptop?","acceptedAnswer":{"@type":"Answer","text":"A Raspberry Pi lacks a GPU entirely, making LLM inference painfully slow (1-2 tokens/sec on CPU). An old laptop draws 60-150W, generates heat and fan noise, and was not designed for 24/7 operation. ClawBox's NVIDIA Jetson Orin Nano delivers 67 TOPS of dedicated AI compute at just 15W in a silent, fanless enclosure purpose-built for continuous agent workloads."}}]}</script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -78,6 +78,10 @@ nav a{margin-left:1.5rem;color:var(--muted);font-size:.9rem}nav a:hover{color:va
 .cta-box{background:color-mix(in srgb,var(--accent) 10%,var(--bg2));border-radius:16px;padding:3rem 2rem;text-align:center;border:1px solid color-mix(in srgb,var(--accent) 25%,transparent)}
 .cta-box h2{font-size:1.8rem;font-weight:800;margin-bottom:.75rem}
 .cta-box p{color:var(--muted);margin-bottom:2rem}
+.use-cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem}
+.use-case{background:var(--bg2);border-radius:12px;padding:1.5rem;border:1px solid var(--border)}
+.use-case h4{color:var(--text);font-size:.95rem;font-weight:700;margin-bottom:.5rem}
+.use-case p{color:var(--muted);font-size:.88rem;line-height:1.6}
 footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem}
 footer a{color:var(--accent)}
 .popup-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(10,15,26,.88);z-index:9999;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(4px)}
@@ -99,7 +103,7 @@ nav{display:none}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9FY8Q06EX"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Q9FY8Q06EX');</script>
-<meta name="revised" content="2026-03-23">
+<meta name="revised" content="2026-03-29">
 </head>
 <body>
 
@@ -107,6 +111,7 @@ nav{display:none}
   <div class="logo">AI Agent Server</div>
   <nav>
     <a href="#why">Why Dedicated</a>
+    <a href="#use-cases">Use Cases</a>
     <a href="#features">Features</a>
     <a href="#specs">Specs</a>
     <a href="#faq">FAQ</a>
@@ -116,8 +121,8 @@ nav{display:none}
 
 <section class="hero">
   <div class="badge">✨ Powered by NVIDIA Jetson Orin Nano · 67 TOPS</div>
-  <h1>Your Dedicated <span>AI Agent Server</span> — Always On, Fully Local</h1>
-  <p>Run autonomous AI agents on purpose-built hardware that never sleeps. No cloud bills, no rate limits, no data leaving your network. One box, unlimited agents.</p>
+  <h1>Your Own <span>AI Agent Server</span> — Always Running, Fully Private</h1>
+  <p>Deploy autonomous AI agents on purpose-built hardware that never sleeps. No cloud fees, no rate limits, no data leaks. One server, unlimited agents, total control.</p>
   <div>
     <a href="https://openclawhardware.dev/openclaw-hardware" target="_blank" class="cta-btn">Get ClawBox — €549 →</a>
     <a href="#why" class="cta-sec">Why a dedicated server? ↓</a>
@@ -136,41 +141,60 @@ nav{display:none}
 </div>
 
 <section class="section" id="why">
-  <h2 class="section-title">Why You Need a Dedicated <span>AI Agent Server</span></h2>
+  <h2 class="section-title">Why Your AI Agents Need a Dedicated <span>AI Agent Server</span></h2>
   <div class="content-block">
-    <p>AI agents are transforming how people automate tasks — from managing emails and calendars to monitoring smart homes and orchestrating business workflows. But running agents in the cloud comes with real costs: monthly subscriptions that add up, API rate limits that throttle your automations at the worst moments, and the uncomfortable reality that every prompt, every document, and every conversation passes through someone else's servers.</p>
+    <p>The promise of AI agents is simple: software that acts on your behalf, autonomously handling tasks around the clock. But in practice, running agents through cloud APIs comes with painful trade-offs — escalating monthly costs, hard token limits that kill your automations mid-task, and the unavoidable fact that every prompt, document, and decision flows through infrastructure you don't control.</p>
 
-    <p>A dedicated <strong>AI agent server</strong> solves all of this. Instead of renting compute from OpenAI or Google, you own the hardware outright. Your agents run locally, 24 hours a day, 7 days a week, with zero ongoing fees. There's no metered API usage, no token caps, and no monthly billing surprises. The one-time cost of <a href="https://openclawhardware.dev/" target="_blank">ClawBox</a> (€549) replaces what would otherwise be €20-50/month in cloud subscriptions — paying for itself within the first year.</p>
+    <p>A dedicated <strong>AI agent server</strong> eliminates these compromises entirely. You own the compute. Your agents run on hardware sitting in your office, home lab, or server rack — processing data that never touches the public internet. There are no per-token charges, no "you've exceeded your plan" interruptions, and no third-party data retention policies to worry about. The one-time cost of <a href="https://openclawhardware.dev/" target="_blank">ClawBox</a> at €549 replaces what typically becomes €240-600 per year in cloud agent subscriptions.</p>
 
-    <h3>What Makes ClawBox the Ideal AI Agent Server</h3>
-    <p>ClawBox is built on the NVIDIA Jetson Orin Nano Super — a platform specifically designed for edge AI inference. With 67 TOPS of AI performance packed into a device that draws just 15 watts, it delivers serious compute without the electricity bills of a traditional server. That 15W power draw means it costs roughly €1/month to run around the clock — less than a single LED light bulb.</p>
+    <h3>Why ClawBox Is Purpose-Built as an AI Agent Server</h3>
+    <p>ClawBox is engineered around the NVIDIA Jetson Orin Nano Super — silicon designed specifically for edge AI inference, not repurposed consumer hardware. Its 67 TOPS of dedicated AI compute runs language models, vision tasks, and multi-step agent reasoning at speeds that make local inference genuinely practical. The 15-watt power envelope means your AI agent server costs roughly €1 per month in electricity — less than leaving a hallway light on.</p>
 
-    <p>The device comes pre-installed with <a href="https://openclawhardware.dev/" target="_blank">OpenClaw</a>, an open-source AI agent framework that connects to the platforms you already use:</p>
+    <p>Every ClawBox ships with <a href="https://openclawhardware.dev/" target="_blank">OpenClaw</a> pre-installed — an open-source agent framework designed for persistent, multi-platform operation:</p>
     <ul>
-      <li><strong>Telegram, WhatsApp, Discord</strong> — talk to your agents where you already chat</li>
-      <li><strong>Browser automation</strong> — agents can navigate websites, fill forms, extract data</li>
-      <li><strong>Local model inference</strong> — run Llama, Mistral, or other open-source models at 15 tokens/sec</li>
-      <li><strong>Hybrid mode</strong> — combine local inference with cloud APIs (GPT-4, Claude) when you need frontier-level reasoning</li>
-      <li><strong>Cron scheduling</strong> — agents wake up on schedules, check your inbox, run reports, post updates</li>
+      <li><strong>Telegram, WhatsApp, Discord, email</strong> — interact with agents across every channel you use</li>
+      <li><strong>Browser automation</strong> — agents navigate websites, fill forms, scrape data, and take screenshots</li>
+      <li><strong>Local model inference</strong> — run Llama 3, Mistral, Phi-3, and other open models at 15 tokens/sec</li>
+      <li><strong>Hybrid cloud routing</strong> — combine local inference with GPT-4 or Claude for frontier reasoning when needed</li>
+      <li><strong>Cron scheduling and heartbeats</strong> — agents wake on schedules, check inboxes, compile reports, and monitor systems</li>
+      <li><strong>Persistent memory</strong> — agents remember context across conversations, building knowledge over time</li>
     </ul>
 
-    <h3>Always-On Agents That Work While You Sleep</h3>
-    <p>The real power of a dedicated AI agent server is persistence. Unlike a laptop that sleeps when you close the lid, ClawBox runs continuously. Your agents can monitor incoming emails overnight, track price changes on e-commerce sites, process support tickets, or compile daily briefings — all without you touching a thing. When you wake up, the work is already done.</p>
+    <h3>The Economics of Owning Your AI Agent Server</h3>
+    <p>Cloud AI subscriptions follow a familiar pattern: they start affordable, then quietly scale up as you add agents, increase usage, or need faster responses. A ChatGPT Team plan costs €25/user/month. Anthropic's Claude Pro runs €20/month per seat. Custom agent platforms like CrewAI Cloud or LangGraph Cloud charge per execution. For a team running 3-5 agents continuously, you're looking at €100-300/month — and that's before enterprise tiers.</p>
 
-    <p>And because everything runs on your local network, there's zero risk of data exposure. Sensitive documents, customer information, financial records — none of it ever leaves your building. For businesses with compliance requirements (GDPR, HIPAA, SOC 2), a local AI agent server isn't just convenient — it's often mandatory.</p>
+    <p>With ClawBox, your costs are fixed: €549 once, plus roughly €12/year in electricity. Within 6-12 months, the server has paid for itself. After that, every month of agent operation is essentially free. For businesses processing sensitive data — medical records, financial documents, legal contracts — the privacy guarantee alone justifies the investment, since data never leaves your network and there are no third-party DPAs to negotiate.</p>
+
+    <h3>Always-On Agents That Outwork Cloud Sessions</h3>
+    <p>Cloud-hosted agents operate in sessions — they activate when you prompt them and go dormant when you close the tab. A local AI agent server fundamentally changes this dynamic. Your agents run as persistent daemons, monitoring data sources, reacting to events, and executing multi-step workflows without human initiation. When you wake up, your overnight email triage is done, your price tracker has flagged deals, and your daily briefing is waiting in Telegram.</p>
+
+    <p>This persistence also enables agent-to-agent collaboration. One agent monitors incoming support tickets, another drafts responses, a third escalates urgent issues — all running on the same ClawBox, communicating through shared memory and internal APIs. No cloud orchestration layer needed, no cross-service latency, no API authentication chains to maintain.</p>
+  </div>
+</section>
+
+<section class="section" id="use-cases">
+  <h2 class="section-title">Real-World <span>AI Agent Server</span> Use Cases</h2>
+  <p class="section-sub">What people actually run on their dedicated AI agent server, day and night.</p>
+  <div class="use-cases">
+    <div class="use-case"><h4>📧 Email Triage & Drafting</h4><p>Agents scan incoming email continuously, categorize by urgency, draft replies for review, and flag messages that need immediate attention — all before you check your inbox.</p></div>
+    <div class="use-case"><h4>🛒 E-Commerce Price Monitoring</h4><p>Track competitor pricing, stock levels, and new listings across dozens of sites. Get instant alerts when prices drop below your threshold or items sell out.</p></div>
+    <div class="use-case"><h4>🏠 Smart Home Orchestration</h4><p>Bridge AI reasoning with Home Assistant. Agents interpret sensor data, adjust HVAC based on occupancy patterns, and generate natural-language home status reports.</p></div>
+    <div class="use-case"><h4>📊 Automated Reporting</h4><p>Compile daily business metrics, social media analytics, or project status updates. Agents gather data from APIs, summarize trends, and deliver formatted reports to your messaging platform.</p></div>
+    <div class="use-case"><h4>🔐 Compliance-Sensitive Analysis</h4><p>Process medical records, legal contracts, or financial documents locally. GDPR, HIPAA, and SOC 2 requirements are simplified when no data leaves your premises.</p></div>
+    <div class="use-case"><h4>🤖 Multi-Agent Workflows</h4><p>Chain agents together: one researches, another writes, a third reviews and publishes. Complex workflows run autonomously with shared memory and coordinated scheduling.</p></div>
   </div>
 </section>
 
 <section class="section" id="features">
   <h2 class="section-title">Built for <span>Agent Workloads</span></h2>
-  <p class="section-sub">Everything you need to run AI agents reliably, day and night.</p>
+  <p class="section-sub">Everything your AI agent server needs to run reliably, day and night.</p>
   <div class="feats">
     <div class="feat"><div class="feat-icon">🏠</div><div><h4>Fully Self-Hosted</h4><div class="feat-desc">All data stays on your network. No cloud dependencies, no third-party access to your conversations or documents.</div></div></div>
     <div class="feat"><div class="feat-icon">⚡</div><div><h4>Always Online</h4><div class="feat-desc">15W power draw means 24/7 operation for under €1/month in electricity. Silent, fanless, built for continuous uptime.</div></div></div>
-    <div class="feat"><div class="feat-icon">🔧</div><div><h4>Multi-Agent Ready</h4><div class="feat-desc">Run multiple agents simultaneously — each with its own personality, tools, and scheduled tasks across different platforms.</div></div></div>
-    <div class="feat"><div class="feat-icon">📡</div><div><h4>Multi-Platform</h4><div class="feat-desc">Connect agents to Telegram, WhatsApp, Discord, email, and more. One server, all your communication channels.</div></div></div>
-    <div class="feat"><div class="feat-icon">🧠</div><div><h4>Local + Cloud Hybrid</h4><div class="feat-desc">Run open-source models locally for privacy-sensitive tasks, route to cloud APIs when you need frontier reasoning.</div></div></div>
-    <div class="feat"><div class="feat-icon">🔓</div><div><h4>Open Source Software</h4><div class="feat-desc">OpenClaw is fully open source. Customize agents, add skills, modify behavior — you own the stack completely.</div></div></div>
+    <div class="feat"><div class="feat-icon">🔧</div><div><h4>Multi-Agent Ready</h4><div class="feat-desc">Run multiple agents simultaneously — each with its own personality, tools, memory, and scheduled tasks across different platforms.</div></div></div>
+    <div class="feat"><div class="feat-icon">📡</div><div><h4>Multi-Platform</h4><div class="feat-desc">Connect agents to Telegram, WhatsApp, Discord, email, and webhooks. One server powers all your communication channels.</div></div></div>
+    <div class="feat"><div class="feat-icon">🧠</div><div><h4>Local + Cloud Hybrid</h4><div class="feat-desc">Run open-source models locally for privacy-sensitive tasks, route to cloud APIs when you need frontier-class reasoning power.</div></div></div>
+    <div class="feat"><div class="feat-icon">🔓</div><div><h4>Open Source Stack</h4><div class="feat-desc">OpenClaw is fully open source. Customize agents, write skills, modify behavior — you own every layer of the software.</div></div></div>
   </div>
 </section>
 
@@ -194,15 +218,15 @@ nav{display:none}
   <p class="section-sub">No Linux knowledge required. No Docker. No terminal. Just plug in and go.</p>
   <div class="steps">
     <div class="step"><h3>Unbox & Power On</h3><p>Connect power and ethernet (or WiFi). ClawBox boots automatically and is ready in under 60 seconds.</p></div>
-    <div class="step"><h3>Open clawbox.local</h3><p>Navigate to clawbox.local in any browser on your network — no IP address hunting needed.</p></div>
+    <div class="step"><h3>Open clawbox.local</h3><p>Navigate to clawbox.local in any browser on your network — no IP address hunting required.</p></div>
     <div class="step"><h3>Scan QR Code</h3><p>Scan with your phone to connect Telegram, WhatsApp, or Discord. Your agent is immediately reachable.</p></div>
-    <div class="step"><h3>Deploy Your Agents</h3><p>Configure agent personalities, tools, and schedules. Your AI agent server is live and working for you.</p></div>
+    <div class="step"><h3>Deploy Your Agents</h3><p>Configure agent personalities, tools, and schedules. Your AI agent server is live and autonomously working.</p></div>
   </div>
 </section>
 
 <section class="section">
   <h2 class="section-title"><span>Compare</span> Your Options</h2>
-  <p class="section-sub">See why a dedicated AI agent server beats cloud subscriptions and DIY builds.</p>
+  <p class="section-sub">See why a dedicated AI agent server beats cloud subscriptions and DIY alternatives.</p>
   <div class="cmp">
   <table class="cmp-tbl">
     <thead>
@@ -221,6 +245,7 @@ nav{display:none}
       <tr><td>Power Draw</td><td class="hi">15W</td><td>N/A (cloud)</td><td>80-200W</td></tr>
       <tr><td>Offline Capable</td><td class="hi"><span class="ck">✓</span> Full local inference</td><td><span class="cx">✗</span> Requires internet</td><td>Maybe</td></tr>
       <tr><td>Rate Limits</td><td class="hi"><span class="ck">✓</span> None</td><td><span class="cx">✗</span> Token caps</td><td><span class="ck">✓</span> None</td></tr>
+      <tr><td>Persistent Memory</td><td class="hi"><span class="ck">✓</span> Cross-session</td><td><span class="cx">✗</span> Per-session only</td><td>Manual setup</td></tr>
     </tbody>
   </table>
   </div>
@@ -229,9 +254,11 @@ nav{display:none}
 <section class="section" id="faq">
   <h2 class="section-title">AI Agent Server — <span>Common Questions</span></h2>
   <div>
-    <div class="faq-item"><div class="faq-q">❓ What makes a dedicated AI agent server better than cloud-hosted agents?</div><div class="faq-a">A dedicated AI agent server keeps all data on-premise, eliminates monthly API costs, and runs 24/7 without internet dependency. ClawBox draws just 15W, so it costs under €15/year in electricity versus €240-600/year for cloud agent subscriptions. You also avoid rate limits — your agents run as fast as the hardware allows, with no token caps or throttling.</div></div>
-    <div class="faq-item"><div class="faq-q">❓ How many AI agents can this AI agent server run simultaneously?</div><div class="faq-a">ClawBox can run multiple agents concurrently across Telegram, WhatsApp, Discord, and other platforms. The 8GB unified memory and 67 TOPS of AI performance handle multi-agent orchestration, tool use, browser automation, and local model inference simultaneously. Each agent can have its own personality, skill set, and scheduled tasks.</div></div>
-    <div class="faq-item"><div class="faq-q">❓ Do I need technical skills to set up an AI agent server with ClawBox?</div><div class="faq-a">No. ClawBox comes pre-configured with <a href="https://openclawhardware.dev/" target="_blank">OpenClaw</a> software installed and ready to go. Plug in power and ethernet, open clawbox.local in your browser, scan a QR code to connect your messaging platforms, and your AI agent server is live in under 5 minutes. No terminal, no Docker, no Linux knowledge required.</div></div>
+    <div class="faq-item"><div class="faq-q">❓ What is an AI agent server and why do I need dedicated hardware?</div><div class="faq-a">An AI agent server is dedicated hardware that runs autonomous AI agents around the clock without relying on cloud services. Unlike cloud-hosted agents that incur monthly API fees and impose token limits, a local AI agent server like ClawBox gives you unlimited inference at a fixed one-time cost of €549. It draws just 15W — about €1/month in electricity — and keeps all data on your local network for complete privacy.</div></div>
+    <div class="faq-item"><div class="faq-q">❓ How many autonomous agents can an AI agent server handle at once?</div><div class="faq-a">ClawBox runs multiple concurrent agents across Telegram, WhatsApp, Discord, email, and custom webhooks. With 67 TOPS of AI compute and 8GB unified LPDDR5 memory, it handles multi-agent orchestration, tool calling, browser automation, cron-scheduled tasks, and local model inference simultaneously. Each agent maintains its own memory, personality, and skill set.</div></div>
+    <div class="faq-item"><div class="faq-q">❓ Can an AI agent server work completely offline without internet?</div><div class="faq-a">Yes. ClawBox runs open-source language models (Llama 3, Mistral, Phi-3) entirely offline at up to 15 tokens per second. Your AI agent server processes documents, generates text, and executes scheduled tasks with zero internet dependency. When connectivity is available, hybrid mode lets agents route complex queries to cloud APIs like GPT-4 or Claude while keeping sensitive operations fully local.</div></div>
+    <div class="faq-item"><div class="faq-q">❓ What real-world tasks can I automate with an AI agent server?</div><div class="faq-a">Common use cases include automated email triage and response drafting, e-commerce price monitoring, social media content scheduling, smart home device orchestration through Home Assistant, customer support ticket processing, daily business briefings, document summarization, and compliance-sensitive data analysis where information cannot leave your premises.</div></div>
+    <div class="faq-item"><div class="faq-q">❓ How does ClawBox compare to running agents on a Raspberry Pi or old laptop?</div><div class="faq-a">A Raspberry Pi lacks a GPU entirely, making LLM inference painfully slow at 1-2 tokens per second on CPU. An old laptop draws 60-150W, generates heat and fan noise, and was never designed for 24/7 operation. ClawBox's NVIDIA Jetson Orin Nano delivers 67 TOPS of dedicated AI compute at just 15W in a silent, fanless enclosure purpose-built for continuous agent workloads.</div></div>
   </div>
 </section>
 
